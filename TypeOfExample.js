@@ -18,3 +18,18 @@ console.log(typeof new Date()); // "object"
 console.log(typeof /abc/);      // "object" 
 console.log(typeof Date.now()); // "number"
 console.log(typeof (0) == typeof('Rahul')) // false
+
+let salary = 5000;
+let _bonus;
+
+if(typeofsalary = Number)
+    {
+        _bonus = 2 * salary;
+        console.log(_bonus);
+    }
+else
+    {
+        console.log("Salary is not a number");
+    }
+
+    
