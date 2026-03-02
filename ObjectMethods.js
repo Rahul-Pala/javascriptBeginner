@@ -38,3 +38,21 @@ function add(a, b) {
 
 let result2 = add(2, 3);
 console.log(result2); // 5
+
+let goal = 5;
+for (let i = 0; i < goal; i++) {
+    console.log(`Iteration ${i} of ${goal}`)
+}
+
+const phone = {
+    model: 'iPhone 11',
+    colour: 'black',
+    storage: 64
+}
+
+for (let key in phone) {
+    console.log(`${key}: ${phone[key]}`);
+}
+
+phoneTwo = {...phone, year: 2022}; // using spread operator to create a shallow copy of phone object
+console.log(phoneTwo); // { model: 'iPhone 11', colour: 'black', storage: 64 }
